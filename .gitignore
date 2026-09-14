@@ -6,6 +6,7 @@
 *.lo
 *.o
 *.obj
+*.OBJ
 
 # Precompiled Headers
 *.gch
@@ -30,3 +31,13 @@
 *.exe
 *.out
 *.app
+!dist/BASS.EXE
+
+# Seeded DOS data files shipped with the playable binary
+!dist/CAS.TXT
+!dist/BILL.TXT
+
+# Local Turbo C / DOSBox build tree
+/build/
+*.LOG
+*.log
